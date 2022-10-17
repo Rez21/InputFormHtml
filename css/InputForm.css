@@ -1,0 +1,67 @@
+html, input {
+    font-family: sans-serif;
+  }
+
+  @media screen and (min-width: 300px) and (max-width: 600px) {
+    .headerContainer {
+      background-color: blue;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    .headerContainer {
+      background-color: tomato;
+    }
+  }
+
+  .headerContainer
+{
+    font-weight:bold;
+    padding:10px;
+    align-items: center;
+    align-content: center;  
+}
+
+  body {
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 2em;
+  }
+
+  form 
+  {
+    margin-top: 50px;
+  }
+
+  div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+  }
+
+  label, input, button {
+    font-size: 16px;
+    line-height: 1.5
+  }
+
+  label {
+    text-align: right;
+    margin-right: 2%;
+    width: 180px;
+  }
+
+  input {
+    flex: auto;
+  }
+
+  button {
+    width: 80px;
+    margin: 0 auto;
+  }
+  error-output
+  {
+      font-size: 12px;
+      font-style: italic;
+      color: red;
+  }
